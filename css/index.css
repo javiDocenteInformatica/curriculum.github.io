@@ -1,0 +1,101 @@
+@import url("normalize.css");
+@import url("colores.css");
+
+/* Generales */
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section{
+    padding: 0.6em;
+}
+
+/* Específicos */
+
+/******************** */
+/* cabecera-principal */
+/******************** */
+header#cabecera-principal {
+    padding: 1em 0;
+}
+img#foto-cv-1 {
+    display: block;
+    border-radius: 0.6em;
+    height: 20em;
+    margin: 0 auto;
+}
+
+/*************************** */
+/* menu-navegacion-principal */
+/*************************** */
+
+nav#menu-navegacion-principal ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav#menu-navegacion-principal li{
+    display: inline-block;
+    padding: 0.6em;
+}
+nav#menu-navegacion-principal a{
+    text-decoration: none;
+}
+
+/* cuerpo-principal */
+/***************** */
+/*seccion-sobre-mi */
+/***************** */
+
+/****************************** */
+/* sub-seccion-datos-personales */
+/****************************** */
+
+/*********************** */
+/* sub-seccion-aptitudes */
+/*********************** */
+
+/*********************** */
+/* sub-seccion-intereses */
+/*********************** */
+
+
+/********************* */
+/* sub-seccion-hobbies */
+/********************* */
+
+
+/********************** */
+/* sub-seccion-contacto */
+/********************** */
+
+
+
+/*********************** */
+/* seccion-mis-proyectos */
+/*********************** */
+
+
+
+/***************************** */
+/* seccion-experiencia-laboral */
+/***************************** */
+
+
+
+/*********************** */
+/* seccion-conocimientos */
+/*********************** */
+
+
+
+/***************** */
+/* seccion-idiomas */
+/***************** */
+
+
+
+/****************** */
+/* seccion-estudios */
+/****************** */

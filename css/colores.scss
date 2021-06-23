@@ -1,0 +1,49 @@
+/* PALETA DE COLORES 1 */
+
+$body1: #f8f9fa;
+$header1:#343a40;
+$nav1:#f0efeb;
+$seccion1: #dfe7fd;
+$seccion2: #cddafd;
+$seccion3: #bee1e6;
+$seccion4: #e2ece9;
+$seccion5: #fad2e1;
+$seccion6: #fde2e4;
+$seccion7: #fff1e6;
+$seccion8: #eae4e9;
+$seccion9: #ffe8d6;
+$seccion10: #ddbea9;
+$seccion11: #cb997e;
+$link1: #ae2012;
+
+
+/* GENERAL */
+body {
+    background-color: $body1;
+}
+
+a{
+    color: $link1;
+}
+
+
+
+/* ESPECIFICO */
+
+header#cabecera-principal {
+    background-color: $header1;
+}
+
+nav#menu-navegacion-principal{
+    background-color: $nav1;
+}
+
+nav#menu-navegacion-principal ol li:hover{
+    background-color: $seccion9;
+}
+
+nav#menu-navegacion-principal ol li a{
+    color: black;
+}
+
+
