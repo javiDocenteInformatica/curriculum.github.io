@@ -1,3 +1,9 @@
+/**
+ * WEBGRAFÍA
+ * =========
+ * Pseudo-clases y pseudo-elementos en CSS: https://www.eniun.com/pseudo-clases-pseudo-elementos-css/
+ */
+
 /* PALETA DE COLORES 1 */
 
 $body1: #f8f9fa;
@@ -26,6 +32,18 @@ a{
     color: $link1;
 }
 
+section:nth-child(3n+1){
+    background-color: $seccion1;
+}
+
+section:nth-child(3n+2){
+    background-color: $seccion4;
+}
+
+section:nth-child(3n+3){
+    background-color: $seccion6;
+}
+
 
 
 /* ESPECIFICO */
@@ -38,11 +56,11 @@ nav#menu-navegacion-principal{
     background-color: $nav1;
 }
 
-nav#menu-navegacion-principal ol li:hover{
-    background-color: $seccion9;
+nav#menu-navegacion-principal li:hover{
+    background-color: $seccion5;
 }
 
-nav#menu-navegacion-principal ol li a{
+nav#menu-navegacion-principal li a{
     color: black;
 }
 
