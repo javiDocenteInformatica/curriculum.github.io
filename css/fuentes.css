@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/**
+ * WEBGRAFÍA
+ * =========
+ * Aprende SASS: tutorial definitivo con ejemplos de código: https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/tutorial-de-sass/
+ * CSS @import Rule: https://www.w3schools.com/cssref/pr_import_rule.asp
+ */
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* VARIABLES */
+.ff-rubik, :not(h1):not(h2):not(h3):not(h3):not(h4):not(h5):not(h6) {
+  font-family: "Rubik", sans-serif;
+}
+
+.ff-jomhuria, h1, h2, h3, h4, h5, h6 {
+  font-family: "Jomhuria", cursive;
+  font-weight: 300;
+}
+
+.fs-normal, a, p, li {
+  font-size: 1rem;
+}
+
+.fs-h1, h1 {
+  font-size: calc(1rem*4);
+}
+
+.fs-h2, h2 {
+  font-size: calc(1rem*3);
+}
+
+.fs-h3 {
+  font-size: calc(1rem*2);
+}
+
+.fs-h4, h4 {
+  font-size: calc(1rem*1.7);
+}
+
+.fs-h5, h5 {
+  font-size: calc(1rem*1.5);
+}
+
+.fs-h6, h6 {
+  font-size: calc(1rem*1.2);
+}
+
+/*# sourceMappingURL=fuentes.css.map */
