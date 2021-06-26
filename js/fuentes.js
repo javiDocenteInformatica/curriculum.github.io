@@ -60,6 +60,6 @@ function cambiaFuenteAElementosDentroDeEncabezados() {
         }
 
         //test
-        console.log(`${element} : ${element.style.font}`);
+        // console.log(`${element} : ${element.style.font}`);
     });
 }
