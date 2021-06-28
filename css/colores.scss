@@ -20,6 +20,8 @@ $seccion8: #eae4e9;
 $seccion9: #ffe8d6;
 $seccion10: #ddbea9;
 $seccion11: #cb997e;
+$seccion12: #ffffff;
+$seccion13: #e5e5e5;
 $link1: #ae2012;
 
 
@@ -32,6 +34,15 @@ a{
     color: $link1;
 }
 
+/* 2 colores */
+section:nth-child(odd){ /* impar */
+    background-color: $seccion12;
+}
+section:nth-child(even){ /* par */
+    background-color: $seccion13;
+}
+/* 3 colores */
+/*
 section:nth-child(3n+1){
     background-color: $seccion1;
 }
@@ -43,15 +54,17 @@ section:nth-child(3n+2){
 section:nth-child(3n+3){
     background-color: $seccion6;
 }
+*/
 
 
 
 /* ESPECIFICO */
-
+/* <header id="cabecera-principal"> */
 header#cabecera-principal {
     background-color: $header1;
 }
 
+/* <nav id="menu-navegacion-principal"> */
 nav#menu-navegacion-principal{
     background-color: $nav1;
 }
@@ -62,6 +75,21 @@ nav#menu-navegacion-principal li:hover{
 
 nav#menu-navegacion-principal li a{
     color: black;
+}
+
+.resalta-opcion{ 
+    background-color: $seccion5;
+}
+
+/*
+.resalta-opcion *{
+     color: $link1 !important;
+}
+*/
+
+.resalta-opcion .linea-subrayado{
+    @extend .linea-subrayado;
+    background-color: $link1;
 }
 
 

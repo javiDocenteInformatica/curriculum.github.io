@@ -14,23 +14,38 @@ a {
   color: #ae2012;
 }
 
-section:nth-child(3n+1) {
-  background-color: #dfe7fd;
+/* 2 colores */
+section:nth-child(odd) {
+  /* impar */
+  background-color: #ffffff;
 }
 
-section:nth-child(3n+2) {
-  background-color: #e2ece9;
+section:nth-child(even) {
+  /* par */
+  background-color: #e5e5e5;
 }
 
-section:nth-child(3n+3) {
-  background-color: #fde2e4;
+/* 3 colores */
+/*
+section:nth-child(3n+1){
+    background-color: $seccion1;
 }
 
+section:nth-child(3n+2){
+    background-color: $seccion4;
+}
+
+section:nth-child(3n+3){
+    background-color: $seccion6;
+}
+*/
 /* ESPECIFICO */
+/* <header id="cabecera-principal"> */
 header#cabecera-principal {
   background-color: #343a40;
 }
 
+/* <nav id="menu-navegacion-principal"> */
 nav#menu-navegacion-principal {
   background-color: #f0efeb;
 }
@@ -41,6 +56,19 @@ nav#menu-navegacion-principal li:hover {
 
 nav#menu-navegacion-principal li a {
   color: black;
+}
+
+.resalta-opcion {
+  background-color: #fad2e1;
+}
+
+/*
+.resalta-opcion *{
+     color: $link1 !important;
+}
+*/
+.resalta-opcion .linea-subrayado {
+  background-color: #ae2012;
 }
 
 /*# sourceMappingURL=colores.css.map */

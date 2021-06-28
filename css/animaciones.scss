@@ -1,0 +1,32 @@
+/**
+ * WEBGRAFIA
+ * =========
+ * CSS Animations: https://www.w3schools.com/css/css3_animations.asp
+ * 
+ */
+
+ //VARIABLES
+ $link1: #ae2012;
+
+.linea-subrayado{
+    display: block;
+    height: 2px;
+}
+
+li:hover .linea-subrayado{
+    animation-name: linea;
+    animation-timing-function: ease-out;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes linea {
+    from{
+        background-color: $link1; 
+        width: 0%;
+    }
+    to{
+        background-color: $link1;    
+        width: 100%;
+    }
+}

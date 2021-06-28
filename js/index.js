@@ -8,6 +8,7 @@
 window.addEventListener("load", () => {
     cambiaFuenteAElementosDentroDeEncabezados();
     mueveSeccionHaciaAbajoDelMenu();
+    resaltaOpcionMenu();
 });
 
 
