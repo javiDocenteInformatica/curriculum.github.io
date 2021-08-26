@@ -8,9 +8,11 @@
  //VARIABLES
  $link1: #ae2012;
 
+
+ /* LINEA DE SUBRAYADO - ELEMENTOS MENU */
 .linea-subrayado{
     display: block;
-    height: 2px;
+    height: 0.2rem;
 }
 
 li:hover .linea-subrayado{
@@ -30,3 +32,36 @@ li:hover .linea-subrayado{
         width: 100%;
     }
 }
+
+/* DESTACADO DE SECCION */
+
+section:hover::before{
+
+    content: "";
+    // display: block;
+    // position: absolute;
+    /* z-index: 1; */
+    border-left-width: 0.3rem;
+    border-left-style: solid;
+    border-left-color: $link1;
+    left: 0;
+
+    /* ANIMACION */
+    animation-name: destaca_seccion;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes destaca_seccion {
+    from{
+        bottom: 0;
+        top:3rem;
+    }
+    to{
+        bottom: 0;
+        top:0;
+    }
+}
+

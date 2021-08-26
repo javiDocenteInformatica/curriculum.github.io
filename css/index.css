@@ -4,10 +4,6 @@
 @import url("animaciones.css");
 
 /* Generales */
-/* body{
-    position: relative;
-} */
-
 article{
     margin: 0 0 0.6em 0; /* arriba derecha abajo izquierda */
 }
@@ -16,12 +12,6 @@ section{
     padding: 0.6em;
     /* display: none; */
 }
-
-/*
-section:target{
-    display: block;
-}
-*/
 
 a{
     cursor: pointer;
@@ -39,6 +29,17 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: underline;
 }
 
+.p-relative{
+    position: relative !important;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.vh-100{
+    height: 100vh;
+}
 
 
 /* Específicos */
@@ -77,7 +78,12 @@ nav#menu-navegacion-principal a{
     text-decoration: none;
 }
 
+/****************** */
 /* cuerpo-principal */
+/****************** */
+.seccion{
+    display: flexbox;
+}
 
 /***************** */
 /*seccion-sobre-mi */

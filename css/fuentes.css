@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 /* VARIABLES */
-.ff-rubik, :not(h1):not(h2):not(h3):not(h3):not(h4):not(h5):not(h6) {
+.ff-rubik, :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-family: "Rubik", sans-serif;
 }
 
@@ -29,7 +29,7 @@
   font-size: calc(1rem*3);
 }
 
-.fs-h3 {
+.fs-h3, h3 {
   font-size: calc(1rem*2);
 }
 

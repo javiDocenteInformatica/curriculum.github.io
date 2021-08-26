@@ -15,6 +15,11 @@ window.onload = () => {
     // tamanyoFuenteNormalEncabezadosH();
 };
 
+
+function cambiaFuentes() {
+    cambiaFuenteAElementosDentroDeEncabezados();
+}
+
 /**
  * Función que cambia los tamaño de fuente de los elementos hijos de encabezados(h1...h6).
  */

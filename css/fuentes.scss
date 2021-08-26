@@ -13,7 +13,7 @@ $font-size-normal: 1rem;
 /////////////////////////
 
 // Fuente para el resto
-:not(h1):not(h2):not(h3):not(h3):not(h4):not(h5):not(h6){
+:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6){
     @extend .ff-rubik;
 }
 
@@ -33,7 +33,9 @@ h1{
 h2{
     @extend .fs-h2;
 }
-
+h3{
+    @extend .fs-h3;
+}
 h4{
     @extend .fs-h4;
 }

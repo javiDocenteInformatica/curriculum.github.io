@@ -22,7 +22,7 @@ function obtieneAlturaMenu() {
     return alturaMenu;
 }
 
-function mueveSeccionHaciaAbajoDelMenu() {
+function clickEnMenu() {
     const menu = document.querySelector("#menu-navegacion-principal");
 
     menu.style.setProperty('position', 'sticky');
@@ -33,19 +33,9 @@ function mueveSeccionHaciaAbajoDelMenu() {
         // test
         // console.log(opcion);
 
-        const opcionNodeName = opcion.nodeName;
-        if (opcionNodeName === 'A') {
-            let secciones = document.querySelectorAll("#cuerpo-principal section");
-            secciones.forEach((elemento, index, array) => {
+        anyadePaddingEncabezados(opcion);
 
-                const alturaMenu = obtieneAlturaMenu();
-                elemento.style.setProperty('padding-top', alturaMenu + 'px');
-
-                //test
-                // console.log(alturaMenu, "elemento.style.marginTop: ", elemento.style.marginTop);
-
-            });
-        }
+        resaltaOpcionMenu();
 
         /*
         const opcionId = opcion.dispatchEvent;
@@ -69,6 +59,22 @@ function mueveSeccionHaciaAbajoDelMenu() {
 
 
     });
+}
+
+function anyadePaddingEncabezados(opcion) {
+    const opcionNodeName = opcion.nodeName;
+    if (opcionNodeName === 'A') {
+        let secciones = document.querySelectorAll("#cuerpo-principal section");
+        secciones.forEach((elemento, index, array) => {
+
+            const alturaMenu = obtieneAlturaMenu();
+            elemento.style.setProperty('padding-top', alturaMenu + 'px');
+
+            //test
+            // console.log(alturaMenu, "elemento.style.marginTop: ", elemento.style.marginTop);
+
+        });
+    }
 }
 
 function resaltaOpcionMenu() {
