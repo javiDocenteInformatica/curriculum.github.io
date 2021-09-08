@@ -28,21 +28,26 @@ li:hover .linea-subrayado {
   }
 }
 /* DESTACADO DE SECCION */
-section:hover::before {
-  content: "";
-  /* z-index: 1; */
-  border-left-width: 0.3rem;
-  border-left-style: solid;
-  border-left-color: #ae2012;
-  left: 0;
-  /* ANIMACION */
-  animation-name: destaca_seccion;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-  cursor: pointer;
-}
+/*
+section:hover::before{
 
+    content: "";
+    // display: block;
+    // position: absolute;
+    // z-index: 1; 
+    border-left-width: 0.3rem;
+    border-left-style: solid;
+    border-left-color: $link1;
+    left: 0;
+
+    // ANIMACION
+    animation-name: destaca_seccion;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+*/
 @keyframes destaca_seccion {
   from {
     bottom: 0;

@@ -10,6 +10,7 @@
 
 /* VARIABLES */
 $font-size-normal: 1rem;
+$font-line-height: 1.5;
 /////////////////////////
 
 // Fuente para el resto
@@ -19,11 +20,13 @@ $font-size-normal: 1rem;
 
 // Fuente para los encabezados
 h1,h2,h3,h4,h5,h6{
-    @extend .ff-jomhuria
+    @extend .ff-jomhuria;
+    text-transform: uppercase;
 }
 
-a, p, li{
+a, p, li, i{
     @extend .fs-normal;
+    line-height: $font-line-height;
 }
 
 h1{

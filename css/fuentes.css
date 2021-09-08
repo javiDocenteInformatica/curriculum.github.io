@@ -8,6 +8,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 /* VARIABLES */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+a, p, li, i {
+  line-height: 1.5;
+}
+
 .ff-rubik, :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-family: "Rubik", sans-serif;
 }
@@ -17,7 +25,7 @@
   font-weight: 300;
 }
 
-.fs-normal, a, p, li {
+.fs-normal, a, p, li, i {
   font-size: 1rem;
 }
 

@@ -1,3 +1,15 @@
+/*
+WEBGRAFIA
+=========
++ Add a space (" ") after an element using :after
+    https://stackoverflow.com/questions/5467605/add-a-space-after-an-element-using-after
+
++ HTML Punctuation Symbols, Punctuation Entities and ASCII Character Code
+    https://www.toptal.com/designers/htmlarrows/punctuation/
+
+
+*/
+
 @import url("normalize.css");
 @import url("colores.css");
 @import url("fuentes.css");
@@ -41,6 +53,19 @@ h1, h2, h3, h4, h5, h6{
     height: 100vh;
 }
 
+.d-block{
+   display: block; 
+}
+.d-inline{
+    display: inline;
+}
+.d-in-block{
+    display: inline-block;
+}
+
+.space::after{
+    content: '\00A0';
+}
 
 /* Específicos */
 
